@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+
+    &::-webkit-scrollbar{
+        display:none;
+    }
+}
+
+$bg-color:rgb(16,16,16);
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto:wght@400;500;700&display=swap');
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.header{
+    height: 100px;
+    background-color: $bg-color;
+    display: flex;
+    align-items: center;
+    padding:2rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    >img{
+        height: 70%;
+
+    }
+
+    >div{
+        width:100%;
+        margin-left: 4vmax;
+
+        >a{
+            margin:2vmax;
+            font-size:1rem;
+            font-weight:300;
+        }
+    }
+
+    >svg{
+        color:white;
+        font-size: 2rem;
+        cursor:pointer;
+
+        &:hover{
+            color:rgb(216,216,216);
+        }
+    }
+    
+}
+
+
